@@ -2,7 +2,7 @@ export class Cliente
 {
     nombreCliente;
     dniCliente;
-    rutCliente;
+    rutCliente;    
     #clave;
 
     constructor(nombreCliente, dniCliente, rutCliente) {
@@ -17,6 +17,6 @@ export class Cliente
     }
 
     autenticable(clave) {
-        return false;
+        return true;
     }
 }
